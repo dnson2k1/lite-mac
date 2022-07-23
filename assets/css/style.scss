@@ -650,3 +650,47 @@ li {
     }
   }
 }
+// STYLE REPORT USER
+.report__user__form {
+  display: inline-block;
+  .form__control__item {
+    margin-right: 10px;
+    @include mobile() {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    input {
+      font-variant: tabular-nums;
+      list-style: none;
+      font-feature-settings: "tnum";
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      min-width: 0;
+      padding: 4px 11px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      line-height: 1.5715;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+    select {
+      padding: 0;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      font-variant: tabular-nums;
+      line-height: 1.5715;
+      list-style: none;
+      font-feature-settings: "tnum";
+      position: relative;
+      display: inline-block;
+      padding: 6px 11px;
+      background-color: rgb(238, 241, 242);
+      cursor: pointer;
+      border: 1px solid #d9d9d9;
+    }
+  }
+}

@@ -684,4 +684,15 @@ li {
   border: 1px solid #d9d9d9;
 }
 
+.history__black__content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.history__black__content img {
+  max-width: 40%;
+}
+
 /*# sourceMappingURL=style.css.map */

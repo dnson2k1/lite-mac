@@ -111,7 +111,7 @@ li {
   margin-left: 15px;
 }
 .navbar__menu__item {
-  padding: 8px 18px 8px 24px;
+  padding: 10px 18px 10px 24px;
   cursor: pointer;
   transition: margin 0.2s ease;
   position: relative;
@@ -131,6 +131,9 @@ li {
 .navbar__menu__item__link.active {
   color: #009b9b;
   font-weight: 600;
+}
+.navbar__menu__item__link.active:hover {
+  color: #009b9b;
 }
 .navbar__menu__item__link:hover {
   color: #292929;
@@ -242,6 +245,8 @@ li {
 }
 .content__report {
   width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
 }
 .content__report__empty {
   display: flex;
@@ -512,6 +517,125 @@ li {
   text-transform: uppercase;
   font-size: 16px;
   border: none;
+}
+
+.transfer__card__info__heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0cc77f;
+  margin-bottom: 10px;
+}
+
+.transfer__btn {
+  padding: 5px 15px;
+  display: block;
+  width: auto;
+  min-width: 35px;
+  height: auto;
+  border-radius: 7px;
+  border: none;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 14px;
+  background: #0cc77f;
+  transition: 0.2s linear;
+}
+.transfer__btn:hover {
+  color: #ffee00;
+  background: #0a965b;
+}
+
+.transfer__form {
+  margin-left: 16.6666%;
+}
+@media only screen and (max-width: 1024px) {
+  .transfer__form {
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .transfer__form {
+    margin-left: 0;
+  }
+}
+.transfer__form form .form-group label {
+  color: #7a7a7a;
+  font-weight: 600;
+  font-size: 13px;
+}
+.transfer__form form .form-group label::after {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: "*";
+}
+.transfer__form form .form-group input,
+.transfer__form form .form-group select {
+  background-color: rgba(70, 95, 110, 0.089);
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.transfer__form form .form-group select {
+  font-size: 16px;
+}
+.transfer__form form .form-group button {
+  padding: 5px 15px;
+  width: auto;
+  min-width: 35px;
+  height: auto;
+  border-radius: 7px;
+  border: none;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 14px;
+  background: #00d1c0;
+  margin-top: 10px;
+  transition: 0.2s linear;
+}
+.transfer__form form .form-group button:hover {
+  opacity: 0.6;
+  color: #ffffff;
+  background: #00d1c0;
+}
+
+.report__filter {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  .report__filter {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px 10px;
+  }
+}
+.report__filter button {
+  color: #fff;
+  height: auto;
+  font-size: 15px;
+  padding: 11px 10px;
+}
+.report__filter button:hover {
+  color: #0cc77f;
+  background-color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */

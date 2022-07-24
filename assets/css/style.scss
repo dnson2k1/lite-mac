@@ -198,6 +198,7 @@ li {
       display: block;
     }
     @include mobile {
+      display: block;
       width: 45%;
     }
   }

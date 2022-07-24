@@ -200,6 +200,7 @@ li {
 }
 @media only screen and (max-width: 600px) {
   .header__logo {
+    display: block;
     width: 45%;
   }
 }

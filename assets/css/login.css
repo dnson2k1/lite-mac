@@ -121,8 +121,8 @@
   }
   .login__logo {
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 10%;
+    left: 16%;
     width: 100%;
   }
   .login__logo img {

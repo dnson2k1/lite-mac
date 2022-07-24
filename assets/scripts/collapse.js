@@ -12,3 +12,12 @@ document.querySelectorAll(".navbar__menu__parent").forEach((acc) => {
     }
   });
 });
+
+/// Show Actions
+
+const action = document.querySelector(".table__actions");
+const actionClick = document.querySelector("#table__actions__click");
+
+actionClick.addEventListener("click", () => {
+  action.classList.toggle("active");
+});

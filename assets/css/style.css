@@ -414,6 +414,15 @@ li {
   font-size: 14px;
   margin-bottom: 3rem;
 }
+.table--responsive {
+  display: block;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .table--responsive {
+    overflow-x: auto;
+  }
+}
 .table thead {
   font-weight: 600;
 }
@@ -439,42 +448,9 @@ li {
 .table__actions p:hover {
   color: #40a9ff;
 }
-.table__actions__show {
-  position: absolute;
-  background-color: #fff;
-  min-width: 150px;
-  height: auto;
-  border: 1px solid #ccc;
-  top: 0;
-  left: 70%;
-  box-shadow: 0 0 6px 2px #ccc;
-  display: none;
-}
-.table__actions__show ul {
-  margin-bottom: 0;
-}
-.table__actions__show ul li {
-  width: 100%;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  font-weight: 500;
-  transition: 0.2s linear all;
-}
-.table__actions__show ul li:hover {
-  background-color: #f8f8f8;
-}
-.table__actions__show ul li:last-child {
-  border-bottom: none;
-}
-.table__actions__show ul li a {
-  display: block;
-  font-size: 13px;
-}
-.table__actions__show ul li a:hover {
+.table__actions a:hover,
+.table__actions p:hover {
   text-decoration: none;
-}
-.table__actions.active .table__actions__show {
-  display: block;
 }
 
 .pagination {
@@ -765,6 +741,11 @@ li {
 }
 .history__black__content img {
   max-width: 40%;
+}
+
+.dropdown-item {
+  padding: 0.25rem 0.5rem;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

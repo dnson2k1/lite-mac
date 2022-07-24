@@ -292,7 +292,7 @@
                       </div>
                     </form>
                   </div>
-                  <div class="content__ant__card__table table-responsive">
+                  <div class="content__ant__card__table table--responsive">
                     <table class="table table-bordered">
                       <thead>
                         <tr>
@@ -313,9 +313,15 @@
                           <td>34</td>
                           <td>0765826980</td>
                           <td>4,546đ</td>
-                          <td>Bật</td>
-                          <td class="table__actions">
-                            <p id="table__actions__click">
+                          <td id="showText">Bật</td>
+                          <td class="table__actions dropdown show">
+                            <p
+                              role="button"
+                              id="dropdownMenuLink"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
                               <svg
                                 viewBox="64 64 896 896"
                                 focusable="false"
@@ -330,15 +336,35 @@
                                 ></path>
                               </svg>
                             </p>
-                            <div class="table__actions__show">
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuLink"
+                            >
                               <ul>
-                                <li>
-                                  <a href="./service/history.html">Lịch sử</a>
+                                <li class="dropdown-item">
+                                  <a>Cài đặt min/max</a>
                                 </li>
-                                <li>
-                                  <a href="./service/history-pay.html"
-                                    >Lịch sử trả tiền</a
+                                <li id="offText" class="dropdown-item">
+                                  <p >Tắt số</p>
+                                </li class="dropdown-item">
+                                <li id="fixText" class="dropdown-item">
+                                  <p >Bảo trì</p>
+                                </li>
+                                <li class="dropdown-item">
+                                  <p
+                                    data-toggle="modal"
+                                    data-target="#exampleModal"
                                   >
+                                    Hủy kết nối
+                                  </p>
+                                </li>
+                                <li class="dropdown-item">
+                                  <p
+                                    data-toggle="modal"
+                                    data-target="#modalUnlink"
+                                  >
+                                    Hủy liên kết
+                                  </p>
                                 </li>
                               </ul>
                             </div>
@@ -399,6 +425,52 @@
                   <input type="tel" placeholder="Nhập số điện thoại" />
                   <button>TIẾP TỤC</button>
                 </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal Exist Link -->
+        <div
+          class="modal fade"
+          id="modalUnlink"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="modalUnlink"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: #fff">
+              <div class="modal-header">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="color: #000"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h2 style="font-size: 25px">Xác nhận hủy liên kết</h2>
+                <p>Bạn có chắc chắn muốn huỷ MoMo này không?</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-light mr-3"
+                  data-dismiss="modal"
+                >
+                  Hủy
+                </button>
+                <button
+                  type="button"
+                  data-dismiss="modal"
+                  class="btn btn-primary"
+                >
+                  Xác nhận
+                </button>
               </div>
             </div>
           </div>

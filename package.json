@@ -1,0 +1,19 @@
+{
+  "name": "litemac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnson2k1/lite-mac.git"
+  },
+  "author": "DNs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnson2k1/lite-mac/issues"
+  },
+  "homepage": "https://github.com/dnson2k1/lite-mac#readme"
+}

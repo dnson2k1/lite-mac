@@ -501,7 +501,7 @@
                       </div>
                     </form>
                   </div>
-                  <div class="content__ant__card__table table-responsive">
+                  <div class="content__ant__card__table table--responsive">
                     <table class="table table-bordered">
                       <thead>
                         <tr>
@@ -516,8 +516,14 @@
                         <tr>
                           <td>34</td>
                           <td>0765826980</td>
-                          <td class="table__actions">
-                            <p id="table__actions__click">
+                          <td class="table__actions dropdown show">
+                            <p
+                              role="button"
+                              id="dropdownMenuLink"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
                               <svg
                                 viewBox="64 64 896 896"
                                 focusable="false"
@@ -532,12 +538,15 @@
                                 ></path>
                               </svg>
                             </p>
-                            <div class="table__actions__show">
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuLink"
+                            >
                               <ul>
-                                <li>
+                                <li class="dropdown-item">
                                   <a href="./service/history.html">Lịch sử</a>
                                 </li>
-                                <li>
+                                <li class="dropdown-item">
                                   <a href="./service/history-pay.html"
                                     >Lịch sử trả tiền</a
                                   >

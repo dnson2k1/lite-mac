@@ -13,11 +13,17 @@ document.querySelectorAll(".navbar__menu__parent").forEach((acc) => {
   });
 });
 
-/// Show Actions
+/// Show On/Off/Fix Text
 
-const action = document.querySelector(".table__actions");
-const actionClick = document.querySelector("#table__actions__click");
+const showText = document.querySelector("#showText");
+const offText = document.querySelector("#offText");
+const fixText = document.querySelector("#fixText");
 
-actionClick.addEventListener("click", () => {
-  action.classList.toggle("active");
+console.log({ showText, offText, fixText });
+
+offText.addEventListener("click", () => {
+  showText.innerHTML = "Tắt";
+});
+fixText.addEventListener("click", () => {
+  showText.innerHTML = "Bảo trì";
 });

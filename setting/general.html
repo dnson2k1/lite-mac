@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Lite Mac</title>
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="navbar">
+        <div class="navbar__content">
+          <div class="navbar__logo">
+            <a href="../index.html"><img src="../assets/img/logo.png" /></a>
+          </div>
+          <div class="navbar__menu">
+            <h3>MENU</h3>
+            <ul class="navbar__menu__list">
+              <li class="navbar__menu__item hover">
+                <a class="navbar__menu__item__link active" href="../index.html"
+                  >Tổng quan</a
+                >
+              </li>
+              <div class="according">
+                <li class="navbar__menu__parent navbar__menu__item">
+                  <a class="navbar__menu__item__link">MoMo</a>
+                </li>
+                <ul class="navbar__menu__children">
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../momo/list.html"
+                      class="navbar__menu__children__item__link"
+                      >Danh Sách</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../momo/transfer.html"
+                      class="navbar__menu__children__item__link"
+                      >Chuyển tiền</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="according">
+                <li class="navbar__menu__parent navbar__menu__item">
+                  <a class="navbar__menu__item__link" href="#">Mini Game</a>
+                </li>
+                <ul class="navbar__menu__children">
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./report.html"
+                      class="navbar__menu__children__item__link"
+                      >Thống kê</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./min-game.html"
+                      class="navbar__menu__children__item__link"
+                      >Danh sách</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./history.html"
+                      class="navbar__menu__children__item__link"
+                      >Lịch sử</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./history-pay.html"
+                      class="navbar__menu__children__item__link"
+                      >Lịch sử trả tiền</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./history-black.html"
+                      class="navbar__menu__children__item__link"
+                      >Danh sách đen</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./history-error.html"
+                      class="navbar__menu__children__item__link"
+                      >Danh sách lỗi</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./report-user.html"
+                      class="navbar__menu__children__item__link"
+                      >Thống kê người dùng</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="./logs.html"
+                      class="navbar__menu__children__item__link"
+                      >Logs</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="according">
+                <li class="navbar__menu__parent navbar__menu__item">
+                  <a class="navbar__menu__item__link" href="#">Lịch sử event</a>
+                </li>
+                <ul class="navbar__menu__children">
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../event/gift.html"
+                      class="navbar__menu__children__item__link"
+                      >Hũ</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../event/bonus.html"
+                      class="navbar__menu__children__item__link"
+                      >Bonus</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../event/task.html"
+                      class="navbar__menu__children__item__link"
+                      >Nhiệm vụ ngày</a
+                    >
+                  </li>
+                  <li
+                    class="navbar__menu__item hover navbar__menu__children__item"
+                  >
+                    <a
+                      class="navbar__menu__item__link"
+                      href="../event/top.html"
+                      class="navbar__menu__children__item__link"
+                      >Top</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <header class="header">
+          <div class="header__inner">
+            <div class="header__icon header__icon--xmark">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="header__icon header__icon--bars">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="header__icon header__icon--user">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+        </header>
+        <!-- Content -->
+        <div class="content">
+          <div class="content__inner">
+            <div class="content__inner__heading">
+              <p>Cài đặt</p>
+              <span> >&ensp; Minigame&ensp;></span>
+              <span>Cài đặt</span>
+            </div>
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="momo__card__info__notify">
+                    <p>
+                      Cài đặt ở đây sẽ đồng bộ cho tất cả tài khoản momo của
+                      bạn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="general__content">
+                    <div
+                      class="general__info"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseExample"
+                      aria-expanded="false"
+                      aria-controls="collapseExample"
+                    >
+                      <button class="btn general__btn">Cài đặt chẵn lẻ</button>
+                    </div>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                        <div class="general__body__list">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Chẵn lẻ
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label for="Commentn+2">Comment Chẵn</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Commentn+2"
+                                    placeholder="C"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định C</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment Lẻ</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="L"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định L</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1
+                                  </small>
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định thua</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Mặc định thua"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định hoàn tiền</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Chẵn lẻ 2
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label for="Commentn+2">Comment Chẵn 2</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Commentn+2"
+                                    placeholder="C2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định C2</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment Lẻ 2</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="L2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định L2</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1
+                                  </small>
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định thua</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Mặc định thua"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định hoàn tiền</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Cài đặt tài xỉu -->
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="general__content">
+                    <div
+                      class="general__info"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTaiXiu"
+                      aria-expanded="false"
+                      aria-controls="collapseTaiXiu"
+                    >
+                      <button class="btn general__btn">Cài đặt tài xỉu</button>
+                    </div>
+                    <div class="collapse" id="collapseTaiXiu">
+                      <div class="card card-body">
+                        <div class="general__body__list">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Tài xỉu
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label for="Commentn+2">Comment Tài</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Commentn+2"
+                                    placeholder="X"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định T</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment Xỉu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="X"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định X</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="2.1"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1
+                                  </small>
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định thua</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="0.9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định hoàn tiền</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Tải xỉu 2
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label for="Commentn+2">Comment Tài</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="Commentn+2"
+                                    placeholder="T2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định T2</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment xỉu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="X2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định X2</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1
+                                  </small>
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định thua</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Mặc định thua"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định hoàn tiền</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- close Cài đặt tài xỉu -->
+            <!-- ------------------------- -->
+            <!-- Cài đặt X3, Gấp 3, Tổng 3 số, Lô  -->
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="general__content">
+                    <div
+                      class="general__info"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseX3"
+                      aria-expanded="false"
+                      aria-controls="collapseX3"
+                    >
+                      <button class="btn general__btn">
+                        Cài đặt X3, Gấp 3, Tổng 3 số, Lô
+                      </button>
+                    </div>
+                    <div class="collapse" id="collapseX3">
+                      <div class="card card-body">
+                        <div class="general__body__list">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Một Phần 3
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment N0</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="N0"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định N0</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment N1</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="N1"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định N1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment N2</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="N2"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định N2</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment N3</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="N3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định N3</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ N0</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="6"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ N1</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ N2</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ N3</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">Gấp 3</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="G3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định G3</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="69,66,99"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="4"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="123,234,456,678,789"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 3 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="general__body__list border-top">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Tổng số 3
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="S"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định S</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 1 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="7,17,27"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 1 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="8,18"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="4"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="9,19"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 3 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">
+                                Hiệu số 2
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="H3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định H3</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 1 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 1 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="7"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 3 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="7"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 4 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 4 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="general__body__list border-top">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">Lô</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="LO"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định LO</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="8,18"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="4"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Close Cài đặt X3 , Gấp 3 , Tổng 3 số  , Lô  -->
+            <!-- ------------------------- -->
+            <!-- Cài đặt XSMB, Xiên  -->
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="general__content">
+                    <div
+                      class="general__info"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseXSMB"
+                      aria-expanded="false"
+                      aria-controls="collapseXSMB"
+                    >
+                      <button class="btn general__btn">
+                        Cài đặt XSMB,Xiên
+                      </button>
+                    </div>
+                    <div class="collapse" id="collapseXSMB">
+                      <div class="card card-body">
+                        <div class="general__body__list">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">XSMB</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="XS"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định XS</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 1 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="55,86,41,85,04,77,45,95,48,71,24,77,00,40,91,55,11,08,58,00,70,56,01"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 1 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="77,44,57,13"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="677,644,957,813"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 3 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">Xiên</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment CX</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="CX"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định CX</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment CT</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="CT"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định CT</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment LT</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="LT"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định LT</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment LX</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="LX"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định LX</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Rules 1 (1 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="0,2,4"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ CX </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (1 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5,7,9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ LT </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (1 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="6,8"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ CT </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 4 (1 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1,3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ LX </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3.3"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Close Cài đặt XSMB, Xiên  -->
+          </div>
+        </div>
+        <!-- Close Content -->
+      </div>
+    </div>
+    <script src="../assets/scripts/collapse.js"></script>
+    <script src="../assets/scripts/navbar.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -19,11 +19,9 @@ const showText = document.querySelector("#showText");
 const offText = document.querySelector("#offText");
 const fixText = document.querySelector("#fixText");
 
-console.log({ showText, offText, fixText });
-
-offText.addEventListener("click", () => {
-  showText.innerHTML = "Tắt";
-});
-fixText.addEventListener("click", () => {
-  showText.innerHTML = "Bảo trì";
-});
+// offText.addEventListener("click", () => {
+//   showText.innerHTML = "Tắt";
+// });
+// fixText.addEventListener("click", () => {
+//   showText.innerHTML = "Bảo trì";
+// });

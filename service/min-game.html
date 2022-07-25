@@ -279,8 +279,14 @@
                           <td>0765826980</td>
                           <td>4,546đ</td>
                           <td>Bật</td>
-                          <td class="table__actions">
-                            <p id="table__actions__click">
+                          <td class="table__actions dropdown show">
+                            <p
+                              role="button"
+                              id="dropdownMenuLink2"
+                              data-toggle="dropdown"
+                              aria-haspopup="true"
+                              aria-expanded="false"
+                            >
                               <svg
                                 viewBox="64 64 896 896"
                                 focusable="false"
@@ -295,15 +301,16 @@
                                 ></path>
                               </svg>
                             </p>
-                            <div class="table__actions__show">
+                            <div
+                              class="dropdown-menu"
+                              aria-labelledby="dropdownMenuLink2"
+                            >
                               <ul>
-                                <li>
-                                  <a href="./service/history.html">Lịch sử</a>
+                                <li class="dropdown-item">
+                                  <a href="./report.html">Thống kê</a>
                                 </li>
-                                <li>
-                                  <a href="./service/history-pay.html"
-                                    >Lịch sử trả tiền</a
-                                  >
+                                <li class="dropdown-item">
+                                  <a href="../setting/general.html">Setting</a>
                                 </li>
                               </ul>
                             </div>

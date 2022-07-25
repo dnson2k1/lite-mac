@@ -19,7 +19,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-
     <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Lite Mac</title>
   </head>
@@ -48,7 +47,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="../momo/list.html"
+                      href="./list.html"
                       class="navbar__menu__children__item__link"
                       >Danh Sách</a
                     >
@@ -58,7 +57,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="../momo/transfer.html"
+                      href="./transfer.html"
                       class="navbar__menu__children__item__link"
                       >Chuyển tiền</a
                     >
@@ -75,7 +74,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./report.html"
+                      href="../service/report.html"
                       class="navbar__menu__children__item__link"
                       >Thống kê</a
                     >
@@ -85,7 +84,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./min-game.html"
+                      href="../service/min-game.html"
                       class="navbar__menu__children__item__link"
                       >Danh sách</a
                     >
@@ -95,7 +94,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./history.html"
+                      href="../service/history.html"
                       class="navbar__menu__children__item__link"
                       >Lịch sử</a
                     >
@@ -105,7 +104,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./history-pay.html"
+                      href="../service/history-pay.html"
                       class="navbar__menu__children__item__link"
                       >Lịch sử trả tiền</a
                     >
@@ -115,7 +114,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./history-black.html"
+                      href="../service/history-black.html"
                       class="navbar__menu__children__item__link"
                       >Danh sách đen</a
                     >
@@ -125,7 +124,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./history-error.html"
+                      href="../service/history-error.html"
                       class="navbar__menu__children__item__link"
                       >Danh sách lỗi</a
                     >
@@ -135,7 +134,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./report-user.html"
+                      href="../service/report-user.html"
                       class="navbar__menu__children__item__link"
                       >Thống kê người dùng</a
                     >
@@ -145,7 +144,7 @@
                   >
                     <a
                       class="navbar__menu__item__link"
-                      href="./logs.html"
+                      href="../service/logs.html"
                       class="navbar__menu__children__item__link"
                       >Logs</a
                     >
@@ -1307,7 +1306,7 @@
                       aria-controls="collapseXSMB"
                     >
                       <button class="btn general__btn">
-                        Cài đặt XSMB,Xiên
+                        Cài đặt XSMB, Xiên
                       </button>
                     </div>
                     <div class="collapse" id="collapseXSMB">
@@ -1616,9 +1615,1006 @@
               </div>
             </div>
             <!-- Close Cài đặt XSMB, Xiên  -->
+            <!-- ------------------------- -->
+            <!-- Cài đặt chung -->
+            <div class="content__ant content__card__border">
+              <div class="content__card__body">
+                <div class="content__ant__card">
+                  <div class="general__content">
+                    <div
+                      class="general__info"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseChung"
+                      aria-expanded="false"
+                      aria-controls="collapseChung"
+                    >
+                      <button class="btn general__btn">Cài đặt khác</button>
+                    </div>
+                    <div class="collapse" id="collapseChung">
+                      <div class="card card-body">
+                        <div class="general__body__list">
+                          <div class="row">
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">Hũ</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Win</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="22"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền trừ khi win</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định là
+                                    1.000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Hũ sẽ không nổ nếu số tiền trong hũ ít hơn
+                                    Số tiền tối thiểu</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Ăn chặn</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="20"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Ăn chặn bn% trong hũ</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Lấy mấy số cuối mã giao GD</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="2"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Nổ Hũ | {tran_id}"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Mặc định Lộc lá {tran_id}</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định thua</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="0.9"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Mặc định hoàn tiền</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-6">
+                              <h1 class="general__body__item__title">Bonus</h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Comment</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="lộc lá | {tran_id}"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định lộc lá |
+                                    {tran_id}</small
+                                  >
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Số tiền tối thiểu</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="100.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. Mặc định
+                                    100,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền tối đa</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định
+                                    1,000,000</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 1 (3 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 1 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="500"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 2 (3 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="111,222,333"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 2 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="500"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Rules 3 (2 số cuối mã GD)</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="10,12,13,14,15,16,17"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Các số cách nhau bởi dấu phẩy</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Tỉ lệ Rules 3 </label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="500"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Vui lòng không để trống. mặc định 1</small
+                                  >
+                                </div>
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Website -->
+                        <div class="general__body__list border-top">
+                          <div class="row">
+                            <div class="general__body__item col-md-12">
+                              <h1 class="general__body__item__title">
+                                Website
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Bật website</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>URL</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Website URL"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Lịch sử</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label>Chỉ lấy lịch sử thắng</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <div class="form-group">
+                                  <label
+                                    >Giới hạn (Tối thiểu 1 LSGD tối đa 20
+                                    LSGD)</label
+                                  >
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Limit chỉ nhập số"
+                                  />
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                                <div class="form-group">
+                                  <label style="margin-top: 10px">Lưu ý</label>
+                                  <textarea name="editor1"></textarea>
+                                </div>
+                                <div class="form-group">
+                                  <label>Số tiền thông báo khi thắng</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="50.000"
+                                  />
+                                  <small class="form-text text-muted"
+                                    >Số tiền tối thiểu để thông báo cho người
+                                    dùng. mặc định là lớn hơn 50,000đ</small
+                                  >
+                                  <button class="btn btn-success">Lưu</button>
+                                </div>
+                                <div class="form-group">
+                                  <button
+                                    class="btn btn-success momo__card__info__btn"
+                                    data-toggle="modal"
+                                    data-target="#exampleAddUser"
+                                  >
+                                    Thêm liên hệ
+                                  </button>
+                                  <div
+                                    class="content__ant__card__table table--responsive"
+                                  >
+                                    <table class="table table-bordered">
+                                      <thead>
+                                        <tr>
+                                          <th>ID</th>
+                                          <th>Tên hiển thị</th>
+                                          <th style="text-align: center">
+                                            URL
+                                          </th>
+                                          <th style="text-align: center">
+                                            Actions
+                                          </th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>6</td>
+                                          <td>box zalo</td>
+                                          <td style="text-align: center">
+                                            demo7.webtienich.com
+                                          </td>
+                                          <td
+                                            class="table__actions dropdown show"
+                                          >
+                                            <p
+                                              role="button"
+                                              id="dropdownMenuLink2"
+                                              data-toggle="dropdown"
+                                              aria-haspopup="true"
+                                              aria-expanded="false"
+                                            >
+                                              <svg
+                                                viewBox="64 64 896 896"
+                                                focusable="false"
+                                                data-icon="setting"
+                                                width="1em"
+                                                height="1em"
+                                                fill="currentColor"
+                                                aria-hidden="true"
+                                              >
+                                                <path
+                                                  d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 009.3-35.2l-.9-2.6a443.74 443.74 0 00-79.7-137.9l-1.8-2.1a32.12 32.12 0 00-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 00-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 00-25.8 25.7l-15.8 85.4a351.86 351.86 0 00-99 57.4l-81.9-29.1a32 32 0 00-35.1 9.5l-1.8 2.1a446.02 446.02 0 00-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 00-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0035.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0025.8 25.7l2.7.5a449.4 449.4 0 00159 0l2.7-.5a32.05 32.05 0 0025.8-25.7l15.7-85a350 350 0 0099.7-57.6l81.3 28.9a32 32 0 0035.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 01-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 01-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 01512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 01400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 01624 502c0 29.9-11.7 58-32.8 79.2z"
+                                                ></path>
+                                              </svg>
+                                            </p>
+                                            <div
+                                              class="dropdown-menu"
+                                              aria-labelledby="dropdownMenuLink2"
+                                            >
+                                              <ul>
+                                                <li class="dropdown-item">
+                                                  <a
+                                                    href="#"
+                                                    type="button"
+                                                    data-toggle="modal"
+                                                    data-target="#exampleAddUser"
+                                                  >
+                                                    Cập nhật
+                                                  </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                  <a
+                                                    href="#"
+                                                    type="button"
+                                                    data-toggle="modal"
+                                                    data-target="#exampleDeleteUser"
+                                                    >Xóa</a
+                                                  >
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>3</td>
+                                          <td>HỖ TRỢ BÁO LỖI</td>
+                                          <td style="text-align: center">
+                                            https://demo7.webtienich.com/
+                                          </td>
+                                          <td
+                                            class="table__actions dropdown show"
+                                          >
+                                            <p
+                                              role="button"
+                                              id="dropdownMenuLink2"
+                                              data-toggle="dropdown"
+                                              aria-haspopup="true"
+                                              aria-expanded="false"
+                                            >
+                                              <svg
+                                                viewBox="64 64 896 896"
+                                                focusable="false"
+                                                data-icon="setting"
+                                                width="1em"
+                                                height="1em"
+                                                fill="currentColor"
+                                                aria-hidden="true"
+                                              >
+                                                <path
+                                                  d="M924.8 625.7l-65.5-56c3.1-19 4.7-38.4 4.7-57.8s-1.6-38.8-4.7-57.8l65.5-56a32.03 32.03 0 009.3-35.2l-.9-2.6a443.74 443.74 0 00-79.7-137.9l-1.8-2.1a32.12 32.12 0 00-35.1-9.5l-81.3 28.9c-30-24.6-63.5-44-99.7-57.6l-15.7-85a32.05 32.05 0 00-25.8-25.7l-2.7-.5c-52.1-9.4-106.9-9.4-159 0l-2.7.5a32.05 32.05 0 00-25.8 25.7l-15.8 85.4a351.86 351.86 0 00-99 57.4l-81.9-29.1a32 32 0 00-35.1 9.5l-1.8 2.1a446.02 446.02 0 00-79.7 137.9l-.9 2.6c-4.5 12.5-.8 26.5 9.3 35.2l66.3 56.6c-3.1 18.8-4.6 38-4.6 57.1 0 19.2 1.5 38.4 4.6 57.1L99 625.5a32.03 32.03 0 00-9.3 35.2l.9 2.6c18.1 50.4 44.9 96.9 79.7 137.9l1.8 2.1a32.12 32.12 0 0035.1 9.5l81.9-29.1c29.8 24.5 63.1 43.9 99 57.4l15.8 85.4a32.05 32.05 0 0025.8 25.7l2.7.5a449.4 449.4 0 00159 0l2.7-.5a32.05 32.05 0 0025.8-25.7l15.7-85a350 350 0 0099.7-57.6l81.3 28.9a32 32 0 0035.1-9.5l1.8-2.1c34.8-41.1 61.6-87.5 79.7-137.9l.9-2.6c4.5-12.3.8-26.3-9.3-35zM788.3 465.9c2.5 15.1 3.8 30.6 3.8 46.1s-1.3 31-3.8 46.1l-6.6 40.1 74.7 63.9a370.03 370.03 0 01-42.6 73.6L721 702.8l-31.4 25.8c-23.9 19.6-50.5 35-79.3 45.8l-38.1 14.3-17.9 97a377.5 377.5 0 01-85 0l-17.9-97.2-37.8-14.5c-28.5-10.8-55-26.2-78.7-45.7l-31.4-25.9-93.4 33.2c-17-22.9-31.2-47.6-42.6-73.6l75.5-64.5-6.5-40c-2.4-14.9-3.7-30.3-3.7-45.5 0-15.3 1.2-30.6 3.7-45.5l6.5-40-75.5-64.5c11.3-26.1 25.6-50.7 42.6-73.6l93.4 33.2 31.4-25.9c23.7-19.5 50.2-34.9 78.7-45.7l37.9-14.3 17.9-97.2c28.1-3.2 56.8-3.2 85 0l17.9 97 38.1 14.3c28.7 10.8 55.4 26.2 79.3 45.8l31.4 25.8 92.8-32.9c17 22.9 31.2 47.6 42.6 73.6L781.8 426l6.5 39.9zM512 326c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm79.2 255.2A111.6 111.6 0 01512 614c-29.9 0-58-11.7-79.2-32.8A111.6 111.6 0 01400 502c0-29.9 11.7-58 32.8-79.2C454 401.6 482.1 390 512 390c29.9 0 58 11.6 79.2 32.8A111.6 111.6 0 01624 502c0 29.9-11.7 58-32.8 79.2z"
+                                                ></path>
+                                              </svg>
+                                            </p>
+                                            <div
+                                              class="dropdown-menu"
+                                              aria-labelledby="dropdownMenuLink2"
+                                            >
+                                              <ul>
+                                                <li
+                                                  class="dropdown-item"
+                                                  data-toggle="modal"
+                                                  data-target="#exampleUpdateUser"
+                                                >
+                                                  <a> Cập nhật </a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                  <a>Xóa</a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="paginator">
+                                    <ul class="pagination">
+                                      <li class="page-item disabled">
+                                        <a class="page-link" href="#"
+                                          >Previous</a
+                                        >
+                                      </li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                      </li>
+
+                                      <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Close Website -->
+                        <!-- Top -->
+                        <div class="general__body__list border-top">
+                          <div class="row">
+                            <div class="general__body__item col-md-4">
+                              <h1 class="general__body__item__title">
+                                Top Thắng Tuần
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form"
+                              >
+                                <div class="form-group">
+                                  <label>Top 1</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="5,000"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Top 2</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="4.000"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Top 3</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="3,000"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Top 4</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="2.000"
+                                  />
+                                </div>
+                                <div class="form-group">
+                                  <label>Top 5</label>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="1.000"
+                                  />
+                                </div>
+
+                                <div class="form-group">
+                                  <label>Hoạt động</label>
+                                  <label class="switch">
+                                    <input type="checkbox" checked />
+                                    <span class="slider round"></span>
+                                  </label>
+                                </div>
+                                <button class="btn btn-success">Lưu</button>
+                              </form>
+                            </div>
+                            <div class="general__body__item col-md-8">
+                              <h1 class="general__body__item__title">
+                                Top Fake
+                              </h1>
+                              <form
+                                action="#"
+                                class="general__body__item__form row"
+                              >
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Top 1</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="037656115"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Top 2</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="082654234"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Top 3</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="092853652"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Top 4</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="085685654"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Top 5</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="095625458"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Hoạt động</label>
+                                    <label class="switch">
+                                      <input type="checkbox" checked />
+                                      <span class="slider round"></span>
+                                    </label>
+                                  </div>
+                                  <button class="btn btn-success">Lưu</button>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label>Tiền chơi</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="5,000,000"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tiền chơi</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="5,001,000"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tiền chơi</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="3,000,000"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tiền chơi</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="2,000,000"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tiền chơi</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="1,000,000"
+                                    />
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <!-- Close Top -->
+                          <!-- Day Mission -->
+                          <div class="general__body__list border-top">
+                            <div class="row">
+                              <div class="general__body__item col-md-6">
+                                <h1 class="general__body__item__title">
+                                  Nhiệm Vụ Ngày
+                                </h1>
+                                <form
+                                  action="#"
+                                  class="general__body__item__form"
+                                >
+                                  <div class="form-group">
+                                    <label>Ngưỡng mốc 1</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="1,000"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền chơi mốc 1</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Ngưỡng mốc 2</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="1,500"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền chơi mốc 2</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Ngưỡng mốc 3</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="2,000"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền chơi mốc 3</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Ngưỡng mốc 4</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="2,500"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền chơi mốc 4</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Ngưỡng mốc 5</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="3,000"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền chơi mốc 5</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tổng số tiền đã trao</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="60,000"
+                                    />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="account">Tài khoản MoMo</label>
+                                    <select class="form-control" id="account">
+                                      <option hidden>
+                                        Chọn danh sách MoMo
+                                      </option>
+                                      <option>01237812838 (4,546)</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Hoạt động</label>
+                                    <label class="switch">
+                                      <input type="checkbox" checked />
+                                      <span class="slider round"></span>
+                                    </label>
+                                  </div>
+                                  <button class="btn btn-success">Lưu</button>
+                                </form>
+                              </div>
+                              <div class="general__body__item col-md-6">
+                                <h1 class="general__body__item__title"></h1>
+                                <form
+                                  action="#"
+                                  class="general__body__item__form"
+                                >
+                                  <div class="form-group">
+                                    <label>Thưởng mốc 1</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="500"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền thưởng mốc 1</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Thưởng mốc 2</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="600"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền thưởng mốc 2</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Thưởng mốc 3</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="700"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền thưởng mốc 3</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Thưởng mốc 4</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="800"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền thưởng mốc 4</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Thưởng mốc 5</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="900"
+                                    />
+                                    <small class="form-text text-muted"
+                                      >Số tiền thưởng mốc 5</small
+                                    >
+                                  </div>
+                                  <div class="form-group">
+                                    <label>Tổng giao dịch đã trao</label>
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="0"
+                                    />
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Close Day Mission -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Close Cài đặt chung -->
+          </div>
+          <!-- Close Content -->
+        </div>
+        <!-- Modal -->
+        <!-- Add User -->
+        <div
+          class="modal fade"
+          id="exampleAddUser"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: #fff">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Thêm liên hệ</h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div
+                  class="transfer__form row"
+                  style="margin-left: 0; width: 85%"
+                >
+                  <form action="#">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Name"
+                        style="text-align: inherit"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="url">URL</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="url"
+                        placeholder="URL"
+                        style="text-align: inherit"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-light mr-3"
+                  data-dismiss="modal"
+                >
+                  Quay lại
+                </button>
+                <button
+                  type="button"
+                  data-dismiss="modal"
+                  class="btn btn-success"
+                >
+                  Lưu
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- Close Content -->
+      </div>
+      <!-- Update User -->
+      <div
+        class="modal fade"
+        id="exampleUpdateUser"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="background-color: #fff">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Thêm liên hệ</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div
+                class="transfer__form row"
+                style="margin-left: 0; width: 85%"
+              >
+                <form action="#">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="box zalo"
+                      style="text-align: inherit"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="url">URL</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="url"
+                      placeholder="demo7.webtienich.com"
+                      style="text-align: inherit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-light mr-3"
+                data-dismiss="modal"
+              >
+                Quay lại
+              </button>
+              <button
+                type="button"
+                data-dismiss="modal"
+                class="btn btn-success"
+              >
+                Lưu
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Delete User -->
+      <div
+        class="modal fade"
+        id="exampleDeleteUser"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleDeleteUser"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="background-color: #fff">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                style="color: #000"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h2 style="font-size: 22px">Xóa liên hệ</h2>
+              <p>Bạn có chắc chắn muốn xoá liện hệ này này không?</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-light mr-3"
+                data-dismiss="modal"
+              >
+                Hủy
+              </button>
+              <button
+                type="button"
+                data-dismiss="modal"
+                class="btn btn-primary"
+              >
+                Xác nhận
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="../assets/scripts/collapse.js"></script>
